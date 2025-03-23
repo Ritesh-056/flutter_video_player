@@ -1,4 +1,4 @@
-# Flutter Layout Task
+# Flutter Video Player
 
 This project implements a video playback system that follows a specific sequence using three videos stored in the phone’s local storage. The BLoC pattern is used for state management.
 
@@ -66,11 +66,11 @@ test/                          # Unit and widget tests
    ```bash
    Must include file name as video1.mp4, video2.mp4 and video3.mp4. Like this :
    ```
-   assets/                           # root level order
-   │   ├── videos/                   # videos directories
-   │   │   ├── video1.mp4
-           ├── video2.mp4
-           ├── video3.mp4
+   assets/                           # Root level directory
+   │   ├── videos/                   # Videos directory
+   │   │   ├── video1.mp4            # Video file 1
+   │   │   ├── video2.mp4            # Video file 2
+   │   │   └── video3.mp4            # Video file 3
 
 3. Install dependencies:
    ```bash
