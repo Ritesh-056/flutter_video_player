@@ -43,7 +43,7 @@ test/                          # Unit and widget tests
 1. **BLoC Pattern**:
    - The **BLoC (Business Logic Component)** pattern is used to manage the state of the video player & controls.
 
-2. **Playback Sequence Logic:**:
+2. **Playback Sequence Logic**:
     - Plays three local videos with automatic pauses (15s, 20s).
     - Loops back to previous videos after completion.
 
