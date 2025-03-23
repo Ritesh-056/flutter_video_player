@@ -62,9 +62,10 @@ test/                          # Unit and widget tests
    cd flutter_video_player
    ```
    
-2. Place the 3 video files inside following directory:
-   ```bash
-   Must include file name as video1.mp4, video2.mp4 and video3.mp4. Like this :
+2. Place video files inside following directory:
+   
+   The project is organized into the following directories:
+
    ```
    assets/                           # Root level directory
    │   ├── videos/                   # Videos directory
@@ -72,12 +73,14 @@ test/                          # Unit and widget tests
    │   │   ├── video2.mp4            # Video file 2
    │   │   └── video3.mp4            # Video file 3
 
-3. Install dependencies:
+   ```
+
+4. Install dependencies:
    ```bash
    flutter pub get
    ```
 
-4. Run the app:
+5. Run the app:
    ```bash
    flutter run
    ```
